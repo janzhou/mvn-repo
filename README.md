@@ -26,8 +26,8 @@ resolvers += "Jian Zhou Release" at "https://raw.githubusercontent.com/janzhou/m
 ```xml
 <repositories>
   <repository>
-    <id>Jian Zhou Release</id>
-    <url>https://raw.githubusercontent.com/janzhou/mvn-repo/release</url>
+    <id>Jian Zhou Testing</id>
+    <url>https://raw.githubusercontent.com/janzhou/mvn-repo/testing</url>
   </repository>
 </repositories>
 ```
@@ -35,5 +35,5 @@ resolvers += "Jian Zhou Release" at "https://raw.githubusercontent.com/janzhou/m
 ### Configure Testing Channel for SBT:
 
 ```scala
-resolvers += "Jian Zhou Release" at "https://raw.githubusercontent.com/janzhou/mvn-repo/release"
+resolvers += "Jian Zhou Testing" at "https://raw.githubusercontent.com/janzhou/mvn-repo/testing"
 ```
