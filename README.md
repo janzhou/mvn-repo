@@ -11,7 +11,7 @@
     <url>https://raw.githubusercontent.com/janzhou/mvn-repo/release</url>
   </repository>
 </repositories>
-```xml
+```
 
 ### Configure Release Channel for SBT:
 
@@ -30,7 +30,7 @@ resolvers += "Jian Zhou Release" at "https://raw.githubusercontent.com/janzhou/m
     <url>https://raw.githubusercontent.com/janzhou/mvn-repo/release</url>
   </repository>
 </repositories>
-```xml
+```
 
 ### Configure Testing Channel for SBT:
 
